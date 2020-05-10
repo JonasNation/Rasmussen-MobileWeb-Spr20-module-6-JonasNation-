@@ -26,3 +26,814 @@ Guitar Center is the site all informanrion came from, that include images chosse
 Creative Commons License
 
 ### Support or Contact
+
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="deluxestyle.css">
+	<link rel="stylesheet" href="fixed.css">
+	<!--CSS sheet -->
+	<title>Deluxe Metal</title>
+</head>
+
+<body data-spy="scroll" data-target="#collapsibleNavbar">
+	<!--Homepage -->
+	<div id="home">
+		<!-- navigation-->
+		<nav class="navbar navbar-expand-md navbar-dark border bg-dark fixed-top my-0">
+			<a class="navbar-brand" href="#">Deluxe Metal</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- Navbar links -->
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto ">
+					<li class="nav-item">
+						<a class="nav-link" href="#home">Home</a>
+						<!--Link to homepage -->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#guitars">Guitars</a>
+						<!--Link to second page -->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#drums">Drums</a>
+						<!--Link to third page -->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#recording">Recording</a>
+						<!--link to fourth page -->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#keyboards">Keyboards/Midi</a>
+						<!--link to fifth page -->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#dj">DJ</a>
+						<!--Link to sixth page -->
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+						<!--Link to final page -->
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!--navigation end-->
+		<!--Home landing page section content -->
+		<div class="landing" style="padding-bottom:70px">
+			<div class="home-wrap">
+				<div class="home-inner">
+				</div>
+			</div>
+		</div>
+		<!--Welcome  -->
+		<div class="caption text-center">
+			<h1 class="display-3">Welcome to Deluxe Metal</h1>
+			<h4>A Place Where Imagination and Sound Meet</h4>
+			<a class="btn btn-outline-light btn-lg border" href="#contact">For More Info</a>
+		</div>
+		<!--Welcome end -->
+		<!--Home page content -->
+		<div class="container-fluid m-4 p-3">
+			<div class="row">
+				<div class="col-sm-4"><img class="img-fluid float-left" src="images/guitar 900x675.jpg" alt="" width="370">
+				</div>
+				<div class="col-sm-4"><img class="img-fluid mx-auto d-block" src="images/keyboard.jpg" alt="" width="400">
+				</div>
+				<div class="col-sm-4"><img class="img-fluid float-right" src="images/gear2.jpg" alt="" width="370">
+				</div>
+			</div>
+		</div>
+		<div class="text-center">
+			<h2><strong>0 % INTEREST</strong></h2>
+			<p>On selected brands purchases of $799 or more with 48 equal monthly payments required</p>
+		</div>
+		<!--This section is for two images and some text with explanation of website -->
+		<div class="container-fluid p-3 m-4">
+			<div class="row">
+				<div class="col-sm-4"><img class="img-fluid float-left" src="images/amps.jpg" alt="" width="400"></div>
+				<div class="col-sm-4"><p><strong>Deluxe Metal is a site dedicated to bringing you the best for all music enthusiast! Hello! I am Jonas Nation and my goal
+						with this site is to make searching for music creation products easier by bringing multiple options under one roof.<br> It doesn't matter what type
+						or genre of music you play, what you need is just a click away.</strong></p>
+				</div>
+				<div class="col-sm-4"><img class="img-fluid float-right" src="images/mic.jpg" alt="" width="335" height="380"></div>
+			</div>
+		</div>
+		<!--Homepage end -->
+		<!--Page two -->
+		<div id="guitars" class="offset text" style="padding-top:70px;padding-bottom:70px">
+			<div class="container-fluid">
+				<div class="text-center">
+					<div class="col-md-12" style="padding-bottom:30px">
+						<h1 class="display-3"><strong>All Things Guitars</strong></h1>
+					</div>
+				</div>
+			</div>
+			<!--1st container-->
+			<div class="container-fluid img-fluid">
+				<div class="card-deck">
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/elecguitar.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Electric Guitars</h4>
+							<p class="card-text">Gibson Les Paul Standard '60s Electric Guita</p>
+							<a href="https://www.guitarcenter.com/Electric-Guitars.gc#narrowSideBar" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/acouguitar.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Acoustic Guitars</h4>
+							<p class="card-text">Taylor 214ce-BLK DLX Grand Auditorium Acoustic-Electric Guitar</p>
+							<a href="https://www.guitarcenter.com/Acoustic-Guitars.gc#narrowSideBar" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/footswitch.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Footswitches</h4>
+							<p class="card-text">Fender MGT-4 Footswitch for Mustang GT Amps</p>
+							<a href="https://www.guitarcenter.com/Amplifier-Footswitches.gc#narrowSideBar" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/elecbass.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Electric Bass Guitars</h4>
+							<p class="card-text">Hofner Ignition Series Vintage Violin Bass</p>
+							<a href="https://www.guitarcenter.com/Electric-Bass.gc#narrowSideBar" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--1st container end-->
+			<div class="container-fluid" style="padding-top:20px">
+				<div class="col-md-12">
+					<h1 class="text-center"><strong>Explore best-selling gear new models and more.</strong></h1>
+				</div>
+			</div>
+			<!--2nd container-->
+			<div class="container-fluid img-fluid" style="padding-top:30px">
+				<div class="card-deck">
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/elecbass.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Electric upright Bass</h4>
+							<p class="card-text">NS Design WAV4c Series 4-String Upright Electric Double Bass</p>
+							<a href="https://www.guitarcenter.com/Electric-Upright-Bass.gc#narrowSideBar" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/classguitar.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Classical/Nylon Guitar</h4>
+							<p class="card-text">Godin ACS Denim Blue Acoustic-Electric Guitar</p>
+							<a href="https://www.guitarcenter.com/Classical-Nylon-Guitars.gc#narrowSideBar" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/amp.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Amplifiers</h4>
+							<p class="card-text">Fender Champion 20 Guitar Combo Amp</p>
+							<a href="https://www.guitarcenter.com/Amplifiers.gc#narrowSideBar" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/effects.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Effects</h4>
+							<p class="card-text">Line 6 Helix Multi-Effects Guitar Pedal</p>
+							<a href="https://www.guitarcenter.com/Effects.gc#narrowSideBar" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--2nd container end-->
+			<div class="container-fluid" style="padding-top:50px">
+				<div class="text-center">
+					<div class="col-md-12">
+						<h1><strong>
+								Amplifiers & Effects
+							</strong></h1>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!--Page two end-->
+		<!--Page three -->
+		<div id="drums" class="offset" style="padding-top:70px;padding-bottom:70px">
+			<div class="container-fluid">
+				<div class="col-md-12" style="padding-bottom:30px">
+					<h1 class="text-center display-3"><strong>The Rhythm Section</strong></h1>
+					<!--Header Title -->
+				</div>
+			</div>
+			<div class="container-fluid img-fluid">
+				<div class="card-deck">
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/acoudrums.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Acoustic Drums</h4>
+							<p class="card-text">Yamaha Stage Custom Birch 5-Piece Shell Pack with 22" Bass Drum</p>
+							<a href="https://www.guitarcenter.com/Acoustic-Drums.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/elecdrums.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Electric Drums</h4>
+							<p class="card-text">Alesis Nitro Mesh 8-Piece Electronic Drum Set</p>
+							<a href="https://www.guitarcenter.com/Electronic-Drums.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/snaredrum.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Snare Drums</h4>
+							<p class="card-text">Ludwig Supraphonic Black Beauty Snare Drum</p>
+							<a href="https://www.guitarcenter.com/Snare-Drums.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/cymbals.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Cymbals</h4>
+							<p class="card-text">Zildjian A Custom Cymbal Pack with Free 18" A Custom Crash</p>
+							<a href="https://www.guitarcenter.com/Cymbals.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid" style="padding-top:20px">
+				<div class="col-md-12">
+					<h2 class="text-center"><strong>Marching Cymbals | Concert Cymbals | Cymbal Cases, Gig Bags & Covers</strong></h2>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid" style="padding-top:30px">
+				<div class="card-deck">
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/drumcase.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Drum Casese</h4>
+							<p class="card-text">SKB Roto-X Molded Drum Case</p>
+							<a href="https://www.guitarcenter.com/Drum-Percussion-Cases-Gig-Bags-Covers.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/pong.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">World Percussion</h4>
+							<p class="card-text">LP Performer Series Conga with Chrome Hardware</p>
+							<a href="https://www.guitarcenter.com/World-Percussion.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/zilophone.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Concert Percussion</h4>
+							<p class="card-text">Sound Percussion Labs 2-2/3 Octave Xylophone</p>
+							<a href="https://www.guitarcenter.com/Concert-Percussion.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:200px">
+						<img class="card-img-top" src="images/drumshield.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Drum Accessories</h4>
+							<p class="card-text">Control Acoustics 5-piece Acrylic Drum Shield</p>
+							<a href="https://www.guitarcenter.com/Drum-Percussion-Accessories.gc" target="_blank" class="btn btn-primary">check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid" style="padding-top:50px">
+				<div class="col-md-12">
+					<h2 class="text-center"><strong>Drum Hardware & Stands | Drum Sticks & Mallets | Drum Heads</strong></h2>
+				</div>
+			</div>
+		</div>
+		<!--Page three end-->
+		<!--Page four-->
+		<div id="recording" class="offset" style="padding-top:70px;padding-bottom:70px">
+			<div class="container-fluid" style="padding-bottom:30px">
+				<div class="col-md-12">
+					<h2 class="text-center display-3"><strong>Pro Audio</strong></h2>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/interface.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Audio Interface</h4>
+							<p class="card-text">Universal Audio Apollo Twin X QUAD Thunderbolt 3 Audio Interface</p>
+							<a href="https://www.guitarcenter.com/Audio-Interfaces.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/monitor.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Studio Monitors</h4>
+							<p class="card-text"> Open quick view dialog for Yamaha HS8 Powered Studio Monitor
+								Yamaha HS8 Powered Studio Monitor</p>
+							<a href="https://www.guitarcenter.com/Studio-Monitors.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/subwoofer.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Studio Subwoofer</h4>
+							<p class="card-text">KRK 10s 10 in. Powered Studio Subwoofer </p>
+							<a href="https://www.guitarcenter.com/Studio-Subwoofers.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/eq.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">500 Series</h4>
+							<p class="card-text">Rupert Neve Designs Portico 511 500-Series Mic Preamp with Texture Control</p>
+							<a href="https://www.guitarcenter.com/500-Series-Gear.gc" target="_blank" class="btn btn-primary">See Profile</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid" style="padding-top:50px">
+				<div class="col-md-12">
+					<h2 class="text-center"><strong>0% interest for 48 months* on select brand† purchases of $799+<br><a href="https://www.guitarcenter.com/Guitar-Sale-Financing.gc?icid=415492" target="_blank">Get Details</a>
+						</strong></h2>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid" style="padding-top:30px">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/recorder.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Audio Recorders</h4>
+							<p class="card-text">Tascam CD-RW901MKII Professional Audio CD Recorder</p>
+							<a href="https://www.guitarcenter.com/Audio-Recorders.gc" target="_blank" class="btn btn-primary">check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/recpack.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Recording Packages</h4>
+							<p class="card-text">Mackie Studio Bundle with CR3-X Monitors, Big Knob Studio Interface, EM89D ...</p>
+							<a href="https://www.guitarcenter.com/Recording-Packages.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/headphones.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Headphones</h4>
+							<p class="card-text">V-MODA Crossfade M-100 Over-Ear Noise-Isolating Metal Headphone</p>
+							<a href="https://www.guitarcenter.com/Headphones.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/microphone.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Microphones</h4>
+							<p class="card-text">AKG C414 XLII Reference Multi-Pattern Condenser Microphone</p>
+							<a href="https://www.guitarcenter.com/Microphones.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid" style="padding-top: 50px">
+				<div class="col-md-12">
+					<h2 class="text-center"><strong>Price Match Guarantee<br></strong></h2>
+					<p>Find a better advertised price on the same product from an authorized U.S. dealer—online or in-store—within 45 days of purchase, we’ll match it</p>
+				</div>
+			</div>
+
+			<div class="container-fluid" style="padding-top: 30px;">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/protools.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Software</h4>
+							<p class="card-text">Avid Pro Tools Perpetual 1-Year + Update/Support (Download)</p>
+							<a href="https://www.guitarcenter.com/Music-Software.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/mixer.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Mixers</h4>
+							<p class="card-text">Tascam Model 24 24-Channel Multitrack Recorder with Analog Mixer and USB In...</p>
+							<a href="https://www.guitarcenter.com/Mixers.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/bundle.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Software Bundles</h4>
+							<p class="card-text">Sonnox Post Bundle (Native) Software Download</p>
+							<a href="https://www.guitarcenter.com/Software-Bundles.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/live.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Live Sound</h4>
+							<p class="card-text">QSC K12.2 Powered 12" 2-Way Loudspeaker System With Advanced DSP</p>
+							<a href="https://www.guitarcenter.com/Live-Sound.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--Page four end-->
+		<!--Page five-->
+		<div id="keyboards" class="offset" style="padding-top:70px;padding-bottom:70px">
+			<div class="container-fluid" style="padding-bottom:30px">
+				<div class="col-md-12">
+					<h1 class="text-center display-3"><strong>Keyboards & Midi</strong></h1>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/abelton.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Midi Controllers & Interfaces</h4>
+							<p class="card-text">Ableton Push 2 Software Controller Instrument with Live Intro</p>
+							<a href="https://www.guitarcenter.com/MIDI.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/dpiano.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Digital Pianos</h4>
+							<p class="card-text">Yamaha Arius YDP-144 Digital Console Piano</p>
+							<a href="https://www.guitarcenter.com/Digital-Pianos.gc" target="_blank" class="btn btn-primary">check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/moog.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Synthesizers & Sound Modules</h4>
+							<p class="card-text">Moog Matriarch Semi-Modular Analog Synthesizer</p>
+							<a href="https://www.guitarcenter.com/Synthesizers-Sound-Modules.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/korg.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Portable & Arranger Keyboards</h4>
+							<p class="card-text">Korg Pa1000 61-Key Professional Arranger</p>
+							<a href="https://www.guitarcenter.com/Portable-Arranger-Keyboards.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid" style="padding-top: 50px;">
+				<div class="col-md-12">
+					<div class="text-center">
+						<h1><strong>Huge Savings on select overstock items</strong></h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid" style="padding-top: 30px;">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/roland.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Keyboard Workstations</h4>
+							<p class="card-text">Roland FANTOM-6 Music Workstation Keyboard</p>
+							<a href="https://www.guitarcenter.com/Keyboard-Workstations.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/mpc.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Production & Groove</h4>
+							<p class="card-text">Akai Professional MPC X Controller</p>
+							<a href="https://www.guitarcenter.com/Production-Groove.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/keyset.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Keyboard Packages</h4>
+							<p class="card-text">Yamaha Montage 76-Key Synthesizer Essentials Kit</p>
+							<a href="https://www.guitarcenter.com/Keyboard-Packages.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/hammond.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Organs</h4>
+							<p class="card-text">Hammond Sk1-73 73-Key Digital Stage Keyboard and Organ</p>
+							<a href="https://www.guitarcenter.com/Organs.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid" style="padding-top: 50px;">
+				<div class="col-md-12">
+					<div class="text-center">
+						<h2><strong>Keyboard Stands & Racks | Keyboard Instrument Cases, Gig Bags & Covers | Keyboard Amplifiers & Monitors</strong></h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid" style="padding-top: 30px;">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/there.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Theremins</h4>
+							<p class="card-text">Moog Theremini with Stand and Gig Bag</p>
+							<a href="https://www.guitarcenter.com/Theremins.gc" target="_blank" class="btn btn-primary">check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/yamaha.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Keyboard Accessories</h4>
+							<p class="card-text">Yamaha Survival Kit A2 for PSR-F51</p>
+							<a href="https://www.guitarcenter.com/Keyboard-Accessories-Parts.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/open.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Outlet Keyboards & MIDI</h4>
+							<p class="card-text">Open Box Williams Symphony Grand Digital Piano with Bench Level 1 Mahogany ...</p>
+							<a href="https://www.guitarcenter.com/Outlet/Keyboards-MIDI.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Page five end-->
+		<!--Page six -->
+		<div id="dj" class="offset" style="padding-top:70px;padding-bottom:70px">
+			<div class="container-fluid" style="padding-bottom:30px">
+				<div class="col-md-12">
+					<h1 class="text-center display-3"><strong>All DJ</strong></h1>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/pioneer.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">DJ Controllers & Interfaces</h4>
+							<p class="card-text">Pioneer DDJ-1000SRT-W Limited-Edition White Controller for Serato DJ Pro</p>
+							<a href="https://www.guitarcenter.com/DJ-Controllers-Interfaces.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/xd.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">DJ CD & Media Players</h4>
+							<p class="card-text">Pioneer XDJ-1000MK2 Digital Performance Multi-Player</p>
+							<a href="https://www.guitarcenter.com/DJ-CD-Media-Players.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/rane.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">DJ Mixers</h4>
+							<p class="card-text">RANE SEVENTY-TWO Battle-Ready 2-channel DJ Mixer with Touchscreen and Serat...</p>
+							<a href="https://www.guitarcenter.com/DJ-Mixers.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/native.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">DJ & Remix Software</h4>
+							<p class="card-text">Native Instruments TRAKTOR SCRATCH A6</p>
+							<a href="https://www.guitarcenter.com/DJ-Remix-Software.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid" style="padding-top: 50px;">
+				<div class="col-md-12">
+					<div class="text-center">
+						<h1><strong>DJ Mixers | DJ Headphones | DJ Gear</strong></h1>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/elektron.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Production & Groove</h4>
+							<p class="card-text">Elektron Digitakt 8-Voice Digital Drum Computer and Sampler</p>
+							<a href="https://www.guitarcenter.com/Production-Groove.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/table.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Turntables</h4>
+							<p class="card-text">Technics Grand Class SL-1210GR Professional Direct Drive DJ Turntable</p>
+							<a href="https://www.guitarcenter.com/Turntables.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/vinyl.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">DJ Vinyl</h4>
+							<p class="card-text">SERATO Clearly Lost Your Marbles 7" NoiseMap Timecode Control Vinyl (P</p>
+							<a href="https://www.guitarcenter.com/DJ-Vinyl.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/djhead.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">DJ Headphones</h4>
+							<p class="card-text">Pioneer HDJ-X5BT Over-Ear DJ Headphones with Bluetooth Gold</p>
+							<a href="https://www.guitarcenter.com/DJ-Headphones.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid" style="padding-top: 50px;">
+				<div class="col-md-12">
+					<div class="text-center">
+						<h2><strong>Beginner instruments, bundles and more to get you playing! <a href="https://www.guitarcenter.com/Gear-New-Musician.gc?icid=415569" target="_blank">Shop Now</a></strong></h2>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid img-fluid" style="padding-top: 30px;">
+				<div class="card-deck">
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/voco.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Karaoke</h4>
+							<p class="card-text">VocoPro HERO-REC Multi-Format Portable P.A. Karaoke System w/ Digital Recor...</p>
+							<a href="https://www.guitarcenter.com/Karaoke.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/needle.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">Needles & Cartridges</h4>
+							<p class="card-text">Ortofon Concorde Club DJ Cartridge Twin Pack</p>
+							<a href="https://www.guitarcenter.com/Needles-Cartridges.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+
+					<div class="card" style="width:400px">
+						<img class="card-img-top" src="images/djbag.jpg" alt="Card image">
+						<div class="card-body">
+							<h4 class="card-title">DJ Accessories</h4>
+							<p class="card-text">QSC TouchMix Carry Tote</p>
+							<a href="https://www.guitarcenter.com/DJ-Accessories.gc" target="_blank" class="btn btn-primary">Check it out</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Sixth page ends -->
+
+		<!--Final page -->
+		<div id="contact" class="offset" style="padding-top:70px;padding-bottom:70px">
+			<div class="container-fluid" style="padding-top: 30;">
+				<div class="col-md-12">
+					<h1 class="text-center display-3"><strong>Contacts</strong></h1>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<div class="col-md-3">
+					<p>This site was made to showcase the local buisness <a href="https://www.guitarcenter.com/?source=4WWRWXGT&gclid=CjwKCAjwwMn1BRAUEiwAZ_jnEgn1IorrzjMiNF7vzR9ScdJZzP6Y9i3-mtaJXvitXDHoMmkQCyP6eRoCwqoQAvD_BwE" target="_blank">Guitar
+							Center</a>.</p>
+
+					<div class="dropup">
+						<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+							More form Guitar Center
+						</button>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="https://www.guitarcenter.com/Services/Lessons/" target="_blank">Lessons</a>
+							<a class="dropdown-item" href="https://www.guitarcenter.com/Services/Lessons/Purchase-Lessons.gc" target="_blank">Online Lessons</a>
+							<a class="dropdown-item" href="https://www.guitarcenter.com/Special-Financing-Offers.gc" target="_blank">Financing</a>
+							<a class="dropdown-item" href="https://www.guitarcenter.com/pages/company-information" target="_blank">About Guitar Center</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="chip m-4" style="padding-bottom:10px;">
+				<img src="images/jonas.gif" alt="Person" width="96" height="96">
+				Jonas Nation (Site Designer)
+				Rasmussen College
+			</div>
+
+			<div class="chip m-5">
+				<img src="images/gc.png" alt="Person" width="96" height="96">
+				Guitar Center
+			</div>
+
+		</div>
+		<!--Final page ends -->
+		<!--footer-->
+		<div class="container-fluid">
+			<footer class="foot">
+				<nav class="navbar navbar-expand-md navbar-dark border bg-dark fixed-bottom my-0">
+					<a class="navbar-brand" href="#"><img src="images/DELUXE METAL Logo 2.png" alt="Logo"></a>
+					<!-- Navbar links -->
+					<div class="collapse navbar-collapse" id="#footer">
+						<ul class="navbar-nav ml-auto ">
+							<li class="nav-item">
+								<a class="nav-link" href="#home">Home</a>
+								<!--Link to homepage -->
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#guitars">Guitars</a>
+								<!--Link to second page -->
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#drums">Drums</a>
+								<!--Link to third page -->
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#recording">Recording</a>
+								<!--link to fourth page -->
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#keyboards">Keyboards/Midi</a>
+								<!--link to fifth page -->
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#dj">DJ</a>
+								<!--Link to sixth page -->
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact</a>
+								<!--Link to final page -->
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</footer>
+		</div>
+		<!--footer end-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!-- jQuery library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <!-- Popper JS -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script> <!-- Latest compiled JavaScript -->
+		<script src="deluxe.js"></script>
+		<!--javascript -->
+</body>
+
+</html>
