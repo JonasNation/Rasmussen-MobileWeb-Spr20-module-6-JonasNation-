@@ -1,0 +1,125 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  position: relative;
+  overflow: auto;
+  font-family: sans-serif;
+}
+.foot {
+  opacity: 0.9;
+  color: white;
+}
+/*Navigation*/
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+.navbar-nav li {
+  padding-right: 1px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
+  color: gold;
+}
+.navbar-brand img {
+  width:40px;
+}
+/*Home*/
+#home {
+  background-image: url(images/notes.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.caption {
+  text-shadow: 1px 1px 2px;
+}
+.btn {
+  color: gold;
+}
+.col-sm-4 {
+  padding-bottom: 10px;
+}
+/*Home end*/
+/*Guitars*/
+#guitars {
+  background-image: url(images/guitarback.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: white;
+}
+.card-body {
+color: black;
+ text-shadow: 1px 1px 2px red;
+}
+.col-md-12 {
+   text-shadow: 1px 1px 2px orange;
+   color: white;
+}
+/*Drums*/
+#drums {
+  background-image: url(images/drumsback.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+/*Drums end*/
+/* Recording*/
+#recording {
+  background-image: url(images/recordingback.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Recording end*/
+/*Keyboards*/
+#keyboards {
+  background-image: url(images/keyboardback.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Keyboardds end*/
+/*DJ*/
+#dj {
+  background-image: url(images/djback.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*DJ end*/
+/*Accessories*/
+#accessories {
+  background-image: url(images/accessoriesback.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*Accessories end*/
+/*Contact*/
+#contact {
+  background-image: url(images/contactback.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.chip {
+  color: gold;
+  text-shadow: 3px 3px 4px black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+/*Contact end*/
+@media screen and (min-width: 601px) {
+  div.container-fluid {
+    font-size: 20px;
+  }
+}
